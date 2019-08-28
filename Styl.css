@@ -1,9 +1,27 @@
+html {
+    min-height: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1.title {
+    
+}
+
 @import url('https://fonts.googleapis.com/css?family=Andada');
 body {
 	margin: 0;
 	background: #222;
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+    font-weight: 800;
+    min-height: 100%;
+    height: 100%;
 }
 
 .container {
