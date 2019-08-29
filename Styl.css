@@ -35,6 +35,7 @@ header {
   background:#f6ebfc;
   position: fixed;
   z-index: 1000;
+  width:100%;
 
 }
 
