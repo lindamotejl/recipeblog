@@ -17,7 +17,7 @@ h1.title {
 body {
 	margin: 0;
 	background: rgb(255, 254, 254);
-	font-family: 'Work Sans', sans-serif;
+	font-family: 
     font-weight: 800;
     min-height: 100%;
     height: 100%;
@@ -143,7 +143,32 @@ hr {
     height: 2px;
     border: none;
     background-color: tomato;
+}
 ul {
     list-style-type: disc;
 }
-
+body { 
+text-align: center;
+}
+.wrapper {
+  display: inline-flex;
+  justify-content: center;
+}
+.wrapper i {
+  padding: 10px;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+.wrapper a:nth-child(1) {
+  color: #dd4b39;
+}
+.wrapper a:nth-child(2) {
+  color: #4867AA;
+}
+.wrapper a:nth-child(3) {
+  color: #1DA1F2;
+}
+.wrapper i:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
