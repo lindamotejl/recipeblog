@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 html {
     min-height: 100%;
     height: 100%;
@@ -13,14 +14,15 @@ html {
 h1.title {
 }
 
-@import url('https://fonts.googleapis.com/css?family=Andada');
+
+
 body {
 	margin: 0;
 	background: rgb(255, 254, 254);
-	font-family: 
-    font-weight: 800;
-    min-height: 100%;
-    height: 100%;
+  
+  font-weight: 800;
+  min-height: 100%;
+  height: 100%;
    
 }
 
