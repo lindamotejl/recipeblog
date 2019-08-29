@@ -112,3 +112,31 @@ height: auto;
 .box .text { position: relative; z-index: 2; }
 
 body.browser-ie8 .box .back { filter: alpha(opacity=75); }
+.main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 1500px;
+	height: 150px;
+	background: #ffffff45;
+	display: table;
+	color: #383333;
+}
+.content
+{
+	padding: 20px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 4em;
+}
+hr {
+    height: 2px;
+    border: none;
+    background-color: tomato;
+ul {
+    list-style-type: disc;
+}
+
