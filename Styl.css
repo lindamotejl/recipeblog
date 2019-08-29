@@ -153,7 +153,7 @@ ul {
     list-style-type: disc;
 }
 body { 
-text-align: center;
+
 }
 .wrapper {
   display: inline-flex;
@@ -176,4 +176,9 @@ text-align: center;
 .wrapper i:hover {
   margin-top: -3px;
   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+#pod {
+  margin-left: 10%;
+  margin-right: 5%;
 }
