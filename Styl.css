@@ -95,8 +95,12 @@ nav a::before {
 }
 
 nav a:hover::before {
-  width: 100%;
+  width: 8%;
 
+}
+
+a:hover{
+  color: #000;
 }
  .wide {
 width: 100%;
