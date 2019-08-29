@@ -16,7 +16,7 @@ h1.title {
 @import url('https://fonts.googleapis.com/css?family=Andada');
 body {
 	margin: 0;
-	background: #222;
+	background: rgb(255, 254, 254);
 	font-family: 'Work Sans', sans-serif;
     font-weight: 800;
     min-height: 100%;
