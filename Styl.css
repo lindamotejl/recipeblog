@@ -6,11 +6,11 @@ html {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
 }
 
 h1.title {
-   text-align: center;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Andada');
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  background: #e62f0f;
+  background:#f6ebfc;
 }
 
 header::after {
@@ -101,7 +101,7 @@ height: auto;
 }
 .box { 
     position: relative;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
 }
 .box .back {
